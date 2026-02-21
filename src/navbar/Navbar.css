@@ -1,0 +1,154 @@
+.navbar {
+  height: 4rem;
+  background-color: rgb(73, 6, 107);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+}
+
+.nav-container {
+  width: 98%;
+  display: flex;
+  align-items: center;
+}
+
+.section1 {
+  width: 60%;
+}
+.section1,
+.logo {
+  margin-left: 0.5rem;
+  height: 3.5rem;
+  cursor: pointer;
+}
+
+.section2 {
+  width: 40%;
+}
+
+.section2 ul {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  gap: 2.5rem;
+  margin: 0;
+  padding: 0;
+  justify-content: end;
+}
+
+.section2 ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  transition: 0.3s;
+  position: relative;
+}
+
+.section2 ul li a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: white;
+  transition: 0.3s ease;
+}
+
+.section2 ul li a:hover::after {
+  width: 100%;
+}
+
+.menu-checkbox,
+.hamburger,
+.menu-overlay,
+.close-btn {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    cursor: pointer;
+    margin-left: auto;
+  }
+
+  .hamburger span {
+    width: 30px;
+    height: 3px;
+    background: white;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+
+  .section2 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%) scale(0.9);
+    width: 85%;
+    max-width: 350px;
+    background: rgb(85, 10, 125);
+    padding: 3rem 1rem;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    z-index: 1001;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  .section2 ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .section2 ul li a {
+    font-size: 1.8rem;
+  }
+
+  .menu-overlay {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    z-index: 1000;
+  }
+
+  .close-btn {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  .menu-checkbox:checked ~ .section2 {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  .menu-checkbox:checked ~ .menu-overlay {
+    opacity: 1;
+    visibility: visible;
+  }
+}
