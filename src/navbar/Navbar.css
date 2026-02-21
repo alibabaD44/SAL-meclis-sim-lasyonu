@@ -1,12 +1,20 @@
 .navbar {
-  height: 4rem;
-  background-color: rgb(73, 6, 107);
+  height: 3.5rem;
+  background-color: rgb(73, 6, 107,0);
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1000;
   display: flex;
+  transition: ease 0.3s;
+}
+
+.navbar.scrolled{
+  background-color: rgb(73, 6, 107);
+  box-shadow:
+    0 4px 20px rgba(0, 0, 0, 0.7),
+    0 1px 3px rgba(255, 255, 255, 0.05);
 }
 
 .nav-container {
