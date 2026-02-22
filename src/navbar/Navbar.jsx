@@ -38,6 +38,8 @@ function Navbar() {
             <li><a href="#hakkımızda">Hakkımızda</a></li>
             <li><a href="#komiteler">Komiteler</a></li>
             <li><a href="#basvuru">Başvuru</a></li>
+            <li><a href="#misyon&vizyon">Misyon</a></li>
+
           </ul>
         </div>
       </div>

@@ -3,7 +3,7 @@ import './misyonvevizyon.css'
 function Misyonandviyzonsection() {
     return (
         <>
-            <section className='misyonandvizyon'>
+            <section id='misyon&vizyon' className='misyonandvizyon'>
                 <div className='misyon'>
                     <div className='misyon-bsk'>
                         Misyonumuz

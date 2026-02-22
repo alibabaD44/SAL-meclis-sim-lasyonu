@@ -67,12 +67,12 @@
 
   .misyon-bsk,
   .vizyon-bsk {
-    font-size: 1.2rem; /* Başlık boyutunu biraz küçült */
-    letter-spacing: 3px; /* Harf arasını daralt */
+    font-size: 1.2rem; 
+    letter-spacing: 3px; 
   }
 
   .misyon-ack,
   .vizyon-ack {
-    font-size: 0.9rem; /* Açıklama metnini okunabilirlik için küçült */
+    font-size: 0.9rem; 
   }
 }

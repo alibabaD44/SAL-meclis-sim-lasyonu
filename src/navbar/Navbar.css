@@ -25,6 +25,7 @@
 
 .section1 {
   width: 60%;
+  justify-content: center;
 }
 .section1,
 .logo {
@@ -158,5 +159,15 @@
   .menu-checkbox:checked ~ .menu-overlay {
     opacity: 1;
     visibility: visible;
+  }
+}
+
+@media (max-width:768px){
+  .hamburger{
+    margin-right: 1rem;
+  }
+  .logo{
+    height: 3rem;
+    margin-top: 0.3rem;
   }
 }
