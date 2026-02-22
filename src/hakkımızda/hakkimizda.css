@@ -1,29 +1,40 @@
 .hakkımızda {
-    height: 20rem;
-    display: flex;
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center;     
-    gap: 1rem;              
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
-
-.hak-baslik, .hak-ack {
-    display: flex;
-    justify-content: center;
-    width: 70%;
-    text-align: center;
-    
+.hak-baslik,
+.hak-ack {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  text-align: center;
 }
 
-.hak-baslik{
-    font-family: "Bebas Neue";
-    letter-spacing: 5px;
+.hak-baslik {
+  font-family: "Bebas Neue";
+  letter-spacing: 5px;
 }
 
+.hak-ack {
+  font-family: Montserrat;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
 
-.hak-ack{
-    font-family: Montserrat;
-    font-weight: 400;
-    letter-spacing: 1px;
+@media (max-width: 1024px) {
+  .hakkımızda {
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hakkımızda {
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+  }
 }

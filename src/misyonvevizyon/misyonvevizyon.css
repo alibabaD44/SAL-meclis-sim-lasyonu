@@ -1,0 +1,78 @@
+.misyonandvizyon {
+  height: 20rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.misyon,
+.vizyon {
+  height: auto;
+  width: 90%;
+  border-radius: 10px;
+  background-color: rgb(73, 6, 107);
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.misyon:hover,
+.vizyon:hover {
+  transform: translateY(-2px);
+}
+
+.misyon-bsk,
+.vizyon-bsk {
+  font-family: "Bebas Neue";
+  letter-spacing: 5px;
+  font-size: 1.5rem;
+}
+
+.misyon-ack,
+.vizyon-ack {
+  font-family: "Montserrat";
+}
+
+@media (max-width: 1024px) {
+  .misyonandvizyon {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem 1rem;
+    gap: 2rem;
+  }
+
+  .misyon,
+  .vizyon {
+    width: 100%;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  .misyon,
+  .vizyon {
+    margin-top: 3rem;
+    width: 80%;
+    max-width: 500px;
+  }
+
+  .misyon-bsk,
+  .vizyon-bsk {
+    font-size: 1.2rem; /* Başlık boyutunu biraz küçült */
+    letter-spacing: 3px; /* Harf arasını daralt */
+  }
+
+  .misyon-ack,
+  .vizyon-ack {
+    font-size: 0.9rem; /* Açıklama metnini okunabilirlik için küçült */
+  }
+}
