@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import React, { useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -13,7 +13,7 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className= {scrolled ? "navbar scrolled" : "navbar"}>
+    <nav className={scrolled ? "navbar scrolled" : "navbar"}>
       <div className="nav-container">
         <div className="section1">
           <a href="/">
@@ -33,9 +33,10 @@ function Navbar() {
 
         <div className="section2">
           <label htmlFor="menu-toggle" className="close-btn">&times;</label>
-          
+
           <ul>
             <li><a href="#hakkımızda">Hakkımızda</a></li>
+            <li><a href="#program">Program</a></li>
             <li><a href="#komiteler">Komiteler</a></li>
             <li><a href="#basvuru">Başvuru</a></li>
             <li><a href="#misyon&vizyon">Misyon</a></li>

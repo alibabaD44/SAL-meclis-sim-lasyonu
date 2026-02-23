@@ -3,6 +3,7 @@ import Home from "./home/home"
 import Hakkımızda from "./hakkımızda/hakkimizda"
 import Misyonandviyzonsection from "./misyonvevizyon/misyonvevizyon"
 import Map from "./map/map"
+import Programakisi from "./program/programAkisi"
 
 function App() {
   
@@ -13,6 +14,7 @@ function App() {
       <Hakkımızda/>
       <Misyonandviyzonsection/>
       <Map/>
+      <Programakisi/>
     </>
   )
 }
