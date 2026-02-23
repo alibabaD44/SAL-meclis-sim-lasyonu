@@ -4,6 +4,7 @@ import Hakkımızda from "./hakkımızda/hakkimizda"
 import Misyonandviyzonsection from "./misyonvevizyon/misyonvevizyon"
 import Map from "./map/map"
 import Programakisi from "./program/programAkisi"
+import Footer from "./footer/footer"
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
       <Misyonandviyzonsection/>
       <Map/>
       <Programakisi/>
+      <Footer/>
     </>
   )
 }
