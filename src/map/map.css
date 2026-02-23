@@ -1,0 +1,36 @@
+.map {
+    height: auto; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem; 
+    margin: 5rem 0;
+}
+
+.map-bsk {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 5px;
+    font-size: 1.5rem; 
+}
+
+.map-ack {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.map-map {
+    width: 60%; 
+    height: 400px;
+    border-radius: 20px;
+    border: 3px solid rgb(73, 6, 107); 
+    overflow: hidden; 
+    box-shadow: 0 10px 30px rgba(73, 6, 107, 0.6); 
+    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.map-map iframe {
+    height: 100%;
+    width: 100%;
+    border: none; 
+}

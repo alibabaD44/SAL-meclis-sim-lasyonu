@@ -2,6 +2,7 @@ import Navbar from "./navbar/Navbar"
 import Home from "./home/home"
 import Hakkımızda from "./hakkımızda/hakkimizda"
 import Misyonandviyzonsection from "./misyonvevizyon/misyonvevizyon"
+import Map from "./map/map"
 
 function App() {
   
@@ -11,6 +12,7 @@ function App() {
       <Home/>
       <Hakkımızda/>
       <Misyonandviyzonsection/>
+      <Map/>
     </>
   )
 }
