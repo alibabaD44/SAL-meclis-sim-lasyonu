@@ -39,6 +39,7 @@ function Navbar() {
             <li><a href="#program">Program</a></li>
             <li><a href="#komiteler">Komiteler</a></li>
             <li><a href="#basvuru">Başvuru</a></li>
+            <li><a href="#sss">SSS</a></li>
           </ul>
         </div>
       </div>
