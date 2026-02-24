@@ -34,3 +34,60 @@
     width: 100%;
     border: none; 
 }
+
+.reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal.active .map-bsk{
+  transition-delay: 0.2s;
+}
+
+.reveal.active .map-map{
+  transition-delay: 0.4s;
+}
+
+@media (max-width: 1024px) {
+    .map {
+        margin: 3rem 0;
+        padding: 0 1.5rem;
+        box-sizing: border-box;
+    }
+
+    .map-map {
+        width: 85%; 
+        height: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .map {
+        margin: 2rem 0;
+        gap: 1rem;
+    }
+
+    .map-bsk {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .map-ack {
+        font-size: 0.9rem;
+        text-align: center;
+        padding: 0 1rem;
+    }
+
+    .map-map {
+        width: 100%;
+        height: 300px; 
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(73, 6, 107, 0.4);
+    }
+}
