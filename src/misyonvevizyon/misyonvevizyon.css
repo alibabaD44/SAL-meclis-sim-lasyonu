@@ -40,6 +40,7 @@
 .misyon-ack,
 .vizyon-ack {
   font-family: "Montserrat";
+  line-height: 1.6;
 }
 
 @media (max-width: 1024px) {
