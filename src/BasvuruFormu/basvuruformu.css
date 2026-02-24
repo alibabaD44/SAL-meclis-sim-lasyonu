@@ -1,0 +1,24 @@
+/*-----HERO----------- */
+.bf-hero{
+    height: 20rem;
+    background-color: rgb(73, 6, 107);
+}
+
+.bf-hero-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bf-hero-bsk{
+    font-family: "Bebas Neue";
+    font-size: 5rem;
+    color: white;
+    margin-top: 8rem;
+}
+
+.bfform{
+    height: 20rem;
+}

@@ -40,7 +40,7 @@ function Navbar() {
             <li><NavHashLink smooth to="/#hakkımızda">Hakkımızda</NavHashLink></li>
             <li><NavHashLink smooth to="/#program">Program</NavHashLink></li>
             <li><NavHashLink smooth to="/#komiteler">Komiteler</NavHashLink></li>
-            <li><Link to="/">Başvuru</Link></li>
+            <li><Link to="/basvuru">Başvuru</Link></li>
             
             <li><NavHashLink smooth to="/#sss">SSS</NavHashLink></li>
           </ul>
