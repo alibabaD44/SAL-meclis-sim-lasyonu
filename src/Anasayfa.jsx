@@ -6,10 +6,12 @@ import Map from "./map/map"
 import Programakisi from "./program/programAkisi"
 import Footer from "./footer/footer"
 import Faq from "./faq/faq"
+import Loadingscreen from "./loadingScreen/loadingScreen"
 
 function AnaSayfa() {
   return (
     <>
+      <Loadingscreen/>
       <Navbar/>
       <Home/>
       <Hakkımızda/>

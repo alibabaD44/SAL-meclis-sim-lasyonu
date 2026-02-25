@@ -1,9 +1,11 @@
 import './error.css'
 import { Link } from 'react-router-dom';
+import Loadingscreen from '../loadingScreen/loadingScreen';
 
 function Error404() {
     return(
         <>
+        <Loadingscreen/>
         <section>
             <div className='error'>
                 <div className='error-container'>
