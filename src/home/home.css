@@ -102,6 +102,11 @@
   letter-spacing: 1px;
 }
 
+.basvur-button a {
+      text-decoration: none;
+  color: white;
+}
+
 .basvur-button:hover {
   transform: translateY(-2px);
 }

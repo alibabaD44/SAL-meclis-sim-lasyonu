@@ -1,0 +1,57 @@
+.error{
+    height: 100vh;
+    background-color: rgb(73, 6, 107);
+}
+
+.error-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.error-bsk{
+    font-family: Bebas Neue;
+    letter-spacing: 5px;
+    color: white;
+    font-size: 8rem;
+}
+
+.error-ack{
+    font-family: Montserrat;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.error-back{
+    padding: 1rem;
+    background-color: rgb(73, 6, 107);
+    border: none;
+    box-shadow: 0 8px 20px rgb(12,12,12);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.error-back a {
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat;
+}
+
+.error-back:hover{
+    transform: translateY(-2px);
+}
+
+@media (max-width:768px){
+    .error-bsk{
+        font-size: 4rem;
+    }
+
+    .error-ack{
+        font-size: 1rem;
+    }
+}

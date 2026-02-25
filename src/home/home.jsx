@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import './home.css';
+import { NavHashLink } from 'react-router-hash-link'; 
 
 function Home() {
     const targetDate = "2026-04-13T00:00:00"; 
@@ -46,7 +47,7 @@ function Home() {
                     <div className="time-box"><span>{timeLeft.seconds}</span> Saniye</div>
                 </div>
 
-                <button className='basvur-button'>BAŞVUR</button>
+                <button className='basvur-button'><NavHashLink to="/basvuru">BAŞVUR</NavHashLink></button>
             </div>
         </div>
     );

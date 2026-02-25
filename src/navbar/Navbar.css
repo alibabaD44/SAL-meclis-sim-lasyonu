@@ -55,7 +55,7 @@
   font-size: 1.2rem;
   letter-spacing: 1px;
   transition: 0.3s;
-  position: relative;
+  position: relative
 }
 
 .section2 ul li a::after {
