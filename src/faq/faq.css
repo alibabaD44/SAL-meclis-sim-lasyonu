@@ -35,6 +35,8 @@
 .faq-item:hover {
   border-color: rgb(73, 6, 107);
   background-color: rgba(73, 6, 107, 0.05);
+    transform: translateY(-2px);
+  box-shadow: 0 2px 10px rgb(73, 6, 107);
 }
 
 .faq-soru {

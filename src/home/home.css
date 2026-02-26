@@ -77,6 +77,8 @@
     0 0 10px rgba(73, 6, 107, 0.4),
     0 0 50px rgba(73, 6, 107, 0.2),
     inset 0 0 5px rgba(73, 6, 107, 0.3);
+  transition: all 0.4s ease;
+  cursor: pointer;
 }
 
 .time-box span {
@@ -84,6 +86,12 @@
   font-size: 2.5rem;
   font-weight: bold;
   color: white;
+  transition: all 0.3s ease;
+}
+
+.time-box:hover{
+      transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgb(73, 6, 107);
 }
 
 .basvur-button {
@@ -97,18 +105,20 @@
   font-size: 1.5rem;
   border: none;
   margin-top: 2rem;
-  transition: transform 0.3s ease;
   position: relative;
   letter-spacing: 1px;
+  transition: all 0.3s ease;
 }
 
 .basvur-button a {
-      text-decoration: none;
+  text-decoration: none;
   color: white;
+  
 }
 
 .basvur-button:hover {
   transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgb(73, 6, 107);
 }
 
 @media (max-width: 768px) {

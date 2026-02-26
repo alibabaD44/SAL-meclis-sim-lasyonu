@@ -22,12 +22,13 @@
   gap: 1.5rem;
   padding: 1.5rem;
   color: white;
-  transition: 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .misyon:hover,
 .vizyon:hover {
   transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgb(73, 6, 107);
 }
 
 .misyon-bsk,
@@ -68,13 +69,13 @@
 
   .misyon-bsk,
   .vizyon-bsk {
-    font-size: 1.2rem; 
-    letter-spacing: 3px; 
+    font-size: 1.2rem;
+    letter-spacing: 3px;
   }
 
   .misyon-ack,
   .vizyon-ack {
-    font-size: 0.9rem; 
+    font-size: 0.9rem;
   }
 }
 
@@ -93,6 +94,6 @@
   transition-delay: 0.2s;
 }
 
-.reveal.active .vizyon{
+.reveal.active .vizyon {
   transition-delay: 0.2s;
 }

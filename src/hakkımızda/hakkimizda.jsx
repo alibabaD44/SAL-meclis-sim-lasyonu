@@ -28,7 +28,6 @@ function Hakkımızda() {
             <div className='hak-baslik'>
                 <h1>HAKKIMIZDA</h1>
             </div>
-            <span className="divider"></span>
             <div className='hak-ack'>
                 Biz, Yeşilköy Anadolu Lisesi’nin öğrenmeye istekli, yenilikçi ve üretken öğrencileriyiz.
                 Alanında fark yaratmayı hedefleyen, genç ve dinamik bir ekip olarak; öğrenmeyi,

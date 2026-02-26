@@ -25,7 +25,8 @@
 .hak-ack {
   font-family: Montserrat;
   font-weight: 400;
-    line-height: 1.6;
+  line-height: 1.6;
+  margin-top: 2rem;
 }
 
 
@@ -56,10 +57,6 @@
     font-size: 0.95rem; 
     line-height: 1.5;
   }
-
-  .divider {
-    width: 40px; 
-  }
 }
 
 .reveal {
@@ -79,11 +76,4 @@
 
 .reveal.active .hak-ack {
   transition-delay: 0.4s;
-}
-
-.divider {
-  width: 50px;
-  height: 2px;
-  background-color: rgb(73, 6, 107);
-  margin: 10px 0;
 }
