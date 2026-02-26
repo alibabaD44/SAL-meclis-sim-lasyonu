@@ -39,7 +39,7 @@ function Navbar() {
           <ul>
             <li><NavHashLink smooth to="/#hakkımızda">Hakkımızda</NavHashLink></li>
             <li><NavHashLink smooth to="/#program">Program</NavHashLink></li>
-            <li><Link to="/komiteler">Komiteler</Link></li>
+            <li><Link to="/komiteler">Komisyonlar</Link></li>
             <li><Link to="/basvuru">Başvuru</Link></li>
             
             <li><NavHashLink smooth to="/#sss">SSS</NavHashLink></li>

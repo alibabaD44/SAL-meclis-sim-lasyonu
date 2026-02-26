@@ -7,7 +7,7 @@ function KHero() {
             <div className='khero'>
                 <div className='khero-container'>
                     <div className='khero-title'>
-                        KOMİTELER
+                        KOMİSYONLAR
                     </div>
                 </div>
             </div>
