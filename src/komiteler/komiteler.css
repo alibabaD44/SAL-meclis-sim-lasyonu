@@ -25,7 +25,7 @@
     max-width: 1200px; 
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem,30rem)); 
+    grid-template-columns: repeat(auto-fit, minmax(20rem,100rem)); 
     gap: 5rem;
     padding: 2rem;
     justify-content: center;
@@ -39,7 +39,7 @@
     transition: all 0.3s ease;
     border: 1px solid rgba(73, 6, 107, 0.1);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .komite-card:hover {
@@ -50,9 +50,10 @@
 
 .komite-image-wrapper {
     position: relative;
-    height: 160px; 
+    height: 100%; 
     background: rgb(73, 6, 107);
     overflow: hidden;
+    width: 25rem;
 }
 
 .komite-logo {
@@ -65,6 +66,7 @@
     padding: 1.5rem; 
     text-align: center;
     flex-grow: 1;
+    width: 70%;
 }
 
 .komite-bsk {
@@ -80,32 +82,13 @@
     font-size: 0.9rem; 
     color: #555;
     line-height: 1.5;
-    height: 4.5rem; 
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     font-family: "Montserrat", sans-serif;
+    text-align: justify;
 }
 
-.komite-btn {
-    margin-top: 1.5rem;
-    padding: 0.6rem 1.5rem;
-    font-size: 0.85rem;
-    border-radius: 25px;
-    background: transparent;
-    border: 2px solid rgb(73, 6, 107);
-    color: rgb(73, 6, 107);
-    cursor: pointer;
-    font-weight: 600;
-    text-transform: uppercase;
-    transition: 0.3s;
-}
-
-.komite-btn:hover {
-    background: rgb(73, 6, 107);
-    color: white;
-    
-}
 
 /* ------- MOBİL DOKUNUŞLAR (Breakpoint) ---------*/
 @media (max-width: 600px) {

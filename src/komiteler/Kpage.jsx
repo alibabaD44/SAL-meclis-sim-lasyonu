@@ -2,43 +2,43 @@ import './komiteler.css';
 
 function Kpage() {
     const komiteler = [
-        {
-            id: 1,
-            isim: "ADALET KOMİSYONU",
-            logo: "/adalet.png",
-            ack: "Hukuk devleti ilkeleri ışığında, yasama süreçlerinin anayasal uygunluğunu denetler ve simülasyonun adalet mekanizmasını koordine eder."
-        },
-        {
-            id: 2,
-            isim: "MİLLİ EĞİTİM KOMİSYONU",
-            logo: "/egitim.png",
-            ack: "Eğitim politikalarının modernizasyonu, akademik standartların geliştirilmesi ve gençliğin vizyoner bir geleceğe hazırlanması için stratejiler üretir."
-        },
-        {
-            id: 3,
-            isim: "DIŞİŞLERİ KOMİSYONU",
-            logo: "/disisleri.png",
-            ack: "Uluslararası ilişkiler, diplomasi ve stratejik ortaklıkları yöneterek, meclis simülasyonunun küresel vizyonunu ve dış politikasını belirler."
-        },
-        {
-            id: 4,
-            isim: "PLAN VE BÜTÇE KOMİSYONU",
-            logo: "/ekonomi.png",
-            ack: "Ekonomik kaynakların verimli kullanımını planlar, bütçe disiplinini sağlar ve simülasyonun mali kalkınma stratejilerini analiz eder."
-        },
-        {
-            id: 5,
-            isim: "İÇİŞLERİ KOMİSYONU",
-            logo: "/icisleri.png",
-            ack: "Kamu düzeninin korunması, yerel yönetimlerin koordinasyonu ve vatandaşlık haklarının tesisi için gerekli idari çalışmaları yürütür."
-        },
-        {
-            id: 6,
-            isim: "MİLLİ SAVUNMA KOMİSYONU",
-            logo: "/savunma.png",
-            ack: "Ulusal güvenliğin sağlanması, savunma stratejilerinin geliştirilmesi ve stratejik caydırıcılık unsurlarının planlanmasından sorumludur."
-        }
-    ];
+    { 
+        id: 1, 
+        isim: "ADALET KOMİSYONU", 
+        logo: "/adalet.png", 
+        ack: "Türkiye Cumhuriyeti Devleti’nin hukuk sisteminin etkinliğini ve adaletin sağlanmasını inceleyen, yasa değişiklikleri ve reform önerileri sunan bir komisyondur. Mevzuatın toplum ihtiyaçlarına uygunluğunu değerlendirir; adli sistemdeki aksaklıkları gidererek hukukun üstünlüğünü güçlendirmeyi amaçlar." 
+    },
+    { 
+        id: 2, 
+        isim: "MİLLİ EĞİTİM KOMİSYONU", 
+        logo: "/egitim.png", 
+        ack: "Türkiye Cumhuriyeti’nin eğitim politikalarını ve pedagojik sistemini inceleyen, eğitimde fırsat eşitliğini güçlendirmeye yönelik yasa ve reform önerileri sunan bir komisyondur. Eğitim müfredatının çağdaş ihtiyaçlara uygunluğunu değerlendirir; nitelikli gelişimi sağlamak amacıyla yapısal aksaklıkları gidermeyi amaçlar." 
+    },
+    { 
+        id: 3, 
+        isim: "DIŞİŞLERİ KOMİSYONU", 
+        logo: "/disisleri.png", 
+        ack: "Uluslararası ilişkilerde Türkiye’nin stratejik çıkarlarını analiz eden, diplomasi süreçlerine yönelik yasal düzenlemeler ve protokol önerileri sunan bir komisyondur. Küresel gelişmelerin ulusal çıkarlara etkisini değerlendirir; diplomatik ilişkileri güçlendirerek Türkiye’nin dünya sahnesindeki etkinliğini artırmayı amaçlar." 
+    },
+    { 
+        id: 4, 
+        isim: "PLAN VE BÜTÇE KOMİSYONU", 
+        logo: "/ekonomi.png", 
+        ack: "Devletin mali kaynaklarının yönetimini ve kamu harcamalarının verimliliğini inceleyen, bütçe yasaları ve ekonomik reform paketleri sunan bir komisyondur. Vergi sisteminin toplumun ekonomik refahına uygunluğunu değerlendirir; mali disiplini sağlayarak sürdürülebilir bir ekonomik kalkınmayı gerçekleştirmeyi amaçlar." 
+    },
+    { 
+        id: 5, 
+        isim: "İÇİŞLERİ KOMİSYONU", 
+        logo: "/icisleri.png", 
+        ack: "Kamu düzeninin tesisi, iç güvenlik stratejileri ve yerel yönetimlerin idari yapısını inceleyen, mülki idare sistemine yönelik yasa ve modernizasyon önerileri sunan bir komisyondur. Vatandaşlık haklarının korunmasını değerlendirir; bürokratik engelleri gidererek toplumsal huzuru ve devlet-vatandaş bağını güçlendirmeyi amaçlar." 
+    },
+    { 
+        id: 6, 
+        isim: "MİLLİ SAVUNMA KOMİSYONU", 
+        logo: "/savunma.png", 
+        ack: "Ulusal savunma stratejilerini ve savunma sanayii politikalarını inceleyen, askeri mevzuat ve güvenlik reformları sunan bir komisyondur. Ülkenin caydırıcılık kapasitesinin güncel tehditlere uygunluğunu değerlendirir; stratejik savunma yatırımlarıyla milli güvenliği en üst seviyede tutmayı ve stratejik bağımsızlığı korumayı amaçlar." 
+    }
+];
 
     return (
         <section className='komiteler-list'>
@@ -51,7 +51,6 @@ function Kpage() {
                         <div className='komite-content'>
                             <h2 className='komite-bsk'>{komite.isim}</h2>
                             <p className='komite-ack'>{komite.ack}</p>
-                            <button className='komite-btn'>İncele</button>
                         </div>
                     </div>
                 ))}
