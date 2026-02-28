@@ -43,7 +43,6 @@ function Footer() {
                 <div className="footer-bottom">
                     <div className="footer-copyright">
                         <p>&copy; {currentYear} Şehremini Anadolu Lisesi Meclis Simülasyonu. Tüm hakları saklıdır.</p>
-                        <p className="footer-dev">Design & Development by ŞAL BT</p>
                     </div>
                 </div>
             </div>

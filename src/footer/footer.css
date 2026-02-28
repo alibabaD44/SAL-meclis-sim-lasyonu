@@ -125,15 +125,12 @@
 
 .footer-copyright {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     font-size: 0.8rem;
     opacity: 0.5;
 }
 
-.footer-dev {
-    font-style: italic;
-}
 
 @media (max-width: 768px) {
     .footer-top {
