@@ -18,7 +18,7 @@ function Navbar() {
     <nav className={scrolled ? "navbar scrolled" : "navbar"}>
       <div className="nav-container">
         <div className="section1">
-          <NavHashLink smooth to="/#top">
+          <NavHashLink smooth to="/">
             <img src="/meclislogo.png" alt="Logo" className="logo" />
           </NavHashLink>
         </div>
@@ -41,7 +41,6 @@ function Navbar() {
             <li><NavHashLink smooth to="/#program">Program</NavHashLink></li>
             <li><Link to="/komiteler">Komisyonlar</Link></li>
             <li><Link to="/basvuru">Başvuru</Link></li>
-            
             <li><NavHashLink smooth to="/#sss">SSS</NavHashLink></li>
           </ul>
         </div>
