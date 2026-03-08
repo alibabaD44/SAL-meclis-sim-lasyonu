@@ -90,14 +90,42 @@
 }
 
 
-/* ------- MOBİL DOKUNUŞLAR (Breakpoint) ---------*/
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
     .komiteler-container {
-        grid-template-columns: 1fr; 
-        padding: 1rem;
+        padding: 1.5rem;
     }
-    
-    .khero {
+
+    .komite-card {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .komite-card {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .komite-image-wrapper {
+        width: 100%;
         height: 15rem;
+    }
+
+    .komite-content {
+        width: 90%;
+        text-align: center;
+        flex: 1;
+        gap: 5rem;
+    }
+
+    .komite-ack {
+        text-align: center;
+    }
+
+    .khero-title {
+        margin-top: 8rem;
+        font-size: 4rem;
     }
 }

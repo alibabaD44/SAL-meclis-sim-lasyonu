@@ -1,6 +1,6 @@
 import "./Navbar.css";
 import React, { useState, useEffect } from "react";
-import { NavHashLink } from 'react-router-hash-link'; 
+import { NavHashLink } from 'react-router-hash-link';
 import { Link } from "react-router-dom";
 
 function Navbar() {
@@ -18,9 +18,9 @@ function Navbar() {
     <nav className={scrolled ? "navbar scrolled" : "navbar"}>
       <div className="nav-container">
         <div className="section1">
-          <NavHashLink smooth to="/">
+          <Link to="/">
             <img src="/meclislogo.png" alt="Logo" className="logo" />
-          </NavHashLink>
+          </Link>
         </div>
 
         <input type="checkbox" id="menu-toggle" className="menu-checkbox" />
@@ -40,7 +40,8 @@ function Navbar() {
             <li><NavHashLink smooth to="/#hakkımızda">Hakkımızda</NavHashLink></li>
             <li><NavHashLink smooth to="/#program">Program</NavHashLink></li>
             <li><Link to="/komiteler">Komisyonlar</Link></li>
-            <li><Link to="/basvuru">Başvuru</Link></li>
+            <li><Link target="_blank"
+              rel="noreferrer" to="https://docs.google.com/forms/d/e/1FAIpQLSfHQC3nsDJnnEvGFEafC7qE8M9qISsyDqyDY2kGT-CPQhPIiQ/viewform?usp=dialog">Başvuru</Link></li>
             <li><NavHashLink smooth to="/#sss">SSS</NavHashLink></li>
           </ul>
         </div>

@@ -79,6 +79,7 @@
 @media (max-width: 768px) {
   .faq-container {
     width: 90%;
+    margin-top: 4rem;
   }
   .faq-soru {
     font-size: 1rem;
