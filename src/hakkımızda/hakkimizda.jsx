@@ -29,12 +29,9 @@ function Hakkımızda() {
                 <h1>HAKKIMIZDA</h1>
             </div>
             <div className='hak-ack'>
-                Biz, Yeşilköy Anadolu Lisesi’nin öğrenmeye istekli, yenilikçi ve üretken öğrencileriyiz.
-                Alanında fark yaratmayı hedefleyen, genç ve dinamik bir ekip olarak; öğrenmeyi,
-                paylaşmayı ve gelişimi odağına alan çalıştaylar düzenliyoruz.
-                Farklı disiplinlerden gelen bireylerin bir araya gelerek deneyimlerini paylaşabildiği,
-                iş birliği içinde üretebildiği katılımcı merkezli etkinlikler tasarlıyoruz. Amacımız;
-                bilgiye ulaşmayı kolaylaştıran, ilham veren ve sürdürülebilir etki yaratan ortamlar oluşturmak.
+                Biz, Şehremini Anadolu Lisesi öğrencileri tarafından düzenlenen Şehremini Meclis Simülasyonu’nun arkasındaki ekibiz. Katılımcıların savaş ve kriz temalı senaryolar üzerinden meclis işleyişini, müzakere süreçlerini ve karar alma mekanizmalarını deneyimleyebileceği bir ortam oluşturuyoruz.
+
+                Amacımız; farklı bakış açılarını değerlendirebilen, sorumluluk bilinci gelişmiş ve çözüm odaklı bireylerin yetişmesine katkı sağlayan, öğretici ve ilham verici bir simülasyon deneyimi sunmaktır.
             </div>
         </section>
     );

@@ -40,8 +40,6 @@ function Navbar() {
             <li><NavHashLink smooth to="/#hakkımızda">Hakkımızda</NavHashLink></li>
             <li><NavHashLink smooth to="/#program">Program</NavHashLink></li>
             <li><Link to="/komiteler">Komisyonlar</Link></li>
-            <li><Link target="_blank"
-              rel="noreferrer" to="https://docs.google.com/forms/d/e/1FAIpQLSfHQC3nsDJnnEvGFEafC7qE8M9qISsyDqyDY2kGT-CPQhPIiQ/viewform?usp=dialog">Başvuru</Link></li>
             <li><NavHashLink smooth to="/#sss">SSS</NavHashLink></li>
           </ul>
         </div>

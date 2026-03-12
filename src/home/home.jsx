@@ -46,9 +46,6 @@ function Home() {
                     <div className="time-box"><span>{timeLeft.minutes}</span> Dakika</div>
                     <div className="time-box"><span>{timeLeft.seconds}</span> Saniye</div>
                 </div>
-
-                <button className='basvur-button'><li><Link target="_blank"
-              rel="noreferrer" to="https://docs.google.com/forms/d/e/1FAIpQLSfHQC3nsDJnnEvGFEafC7qE8M9qISsyDqyDY2kGT-CPQhPIiQ/viewform?usp=dialog">Başvur</Link></li></button>
             </div>
         </div>
     );
